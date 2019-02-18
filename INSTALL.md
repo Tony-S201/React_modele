@@ -178,3 +178,15 @@ Outils pratiques
 - [pour Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
 - [pour Firefox](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/)
 
+
+Extensions VS-code utiles
+-------------------------
+
+```
+code --install-extension EditorConfig.EditorConfig
+code --install-extension mgmcdermott.vscode-language-babel
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension robinbentley.sass-indented
+code --install-extension shinnn.stylelint
+code --install-extension mrmlnc.vscode-duplicate
+```

@@ -8,20 +8,14 @@ import { render } from 'react-dom';
 /**
  * Local import
  */
+import App from 'src/components/App';
 
-
-/**
- * Code
- */
-const Welcome = () => (
-  <div id="welcome">Bienvenue dans React</div>
-);
 
 /**
  * Render
  */
 // 1. Le composant racine à rendre (le tronc de l'arbre)
-const rootComponent = <Welcome />;
+const rootComponent = <App />;
 // 2. La cible dans le DOM
 const target = document.getElementById('root');
 
