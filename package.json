@@ -1,7 +1,7 @@
 {
   "name": "react-modele",
   "devDependencies": {
-    "@babel/core": "*",
+    "@babel/core": "^7.3.4",
     "@babel/plugin-proposal-class-properties": "*",
     "@babel/plugin-proposal-object-rest-spread": "*",
     "@babel/preset-env": "*",
@@ -44,10 +44,13 @@
     "save-deps": "rm -rf node_modules && npm update --save && npm update --save-dev"
   },
   "dependencies": {
-    "@babel/polyfill": "*",
+    "@babel/polyfill": "^7.2.5",
+    "axios": "^0.18.0",
     "classnames": "^2.2.6",
     "prop-types": "^15.7.2",
-    "react": "^16.8.1",
-    "react-dom": "^16.8.1"
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1"
   }
 }
