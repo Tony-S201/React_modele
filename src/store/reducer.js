@@ -6,11 +6,16 @@ const initialState = {
 };
 
 /**
+ * Types
+ */
+const DO_SOMETHING = 'DO_SOMETHING';
+
+/**
  * Reducer
  */
 const reducer = (state = initialState, action = {}) => {
   switch (action.type) {
-    case 'DO_SOMETHING':
+    case DO_SOMETHING:
       return {
         ...state,
         message: action.message,
@@ -25,9 +30,14 @@ const reducer = (state = initialState, action = {}) => {
  * Action Creators
  */
 export const doSomething = message => ({
-  type: 'DO_SOMETHING',
+  type: DO_SOMETHING,
   message,
 });
+
+/**
+ * Selectors
+ */
+
 
 /**
  * Export
